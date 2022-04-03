@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_59583768</developerName>
+        <masterLabel>Gerência</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>ROLLUP_DESCRIPTION</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Prospect - Private</sourceValue>
+            </sourceValues>
+            <value>Prospect - Private</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Prospect - Global</sourceValue>
+            </sourceValues>
+            <value>Prospect - Global</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Prospect - Receptivo</sourceValue>
+            </sourceValues>
+            <value>Prospect - Receptivo</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Prospect - Ativação</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Prospect - Pré-encarteiramento</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Prospect - Pool</sourceValue>
+            </sourceValues>
+            <value>Prospect - Ativação</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Sales - Private</sourceValue>
+            </sourceValues>
+            <value>Sales - Private</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Sales - Global</sourceValue>
+            </sourceValues>
+            <value>Sales - Global</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Sales - Wealth</sourceValue>
+            </sourceValues>
+            <value>Sales - Wealth</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Negócios - Empresas</sourceValue>
+            </sourceValues>
+            <value>Negócios - Empresas</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Negócios - Agente Autônomo</sourceValue>
+            </sourceValues>
+            <value>Negócios - Agente Autônomo</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Negócios - Gestoras</sourceValue>
+            </sourceValues>
+            <value>Negócios - Gestoras</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Negócios - SIC</sourceValue>
+            </sourceValues>
+            <value>Negócios - SIC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Negócios - Stock Option</sourceValue>
+            </sourceValues>
+            <value>Negócios - Stock Option</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Assessor Comercial Negócios - Clubes</sourceValue>
+            </sourceValues>
+            <value>Negócios - Clubes</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>BucketField_59583768</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>User.Agr_EmployeeArea__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Sales,Negócios,Prospect</value>
+        </criteriaItems>
+        <language>pt_BR</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.Agr_EmployeeArea__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.FinServ__RiskTolerance__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Formula_Venc_Cadastro__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Contas dos Assessores - Visão S</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

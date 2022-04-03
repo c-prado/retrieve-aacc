@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Assessor_Home_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+		<members>Assessorgora/pvvUmqfexyswjsXbcTkpqMfUmzSOQA</members>
+		<members>Assessorgora/zeKQtklUPrBFzLhRLJboQEOwfRAQqW</members>
+		<members>PainelHome/dBVhtucFOtBCYttRbxGlDNhVWVyPey</members>
+		<members>PainelHome/tkLcoXyYBKypfMZJaNheSzfyjEUUVZ</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+		<members>AgoraCRM/Contas_dos_Assessores_Viso_S_AWO</members>
+		<members>AgoraCRM/Contas_dos_Assessores_Wq6</members>
+		<members>AgoraCRM/Meus_Relatrios_Assessores_GOY</members>
+		<members>AgoraCRM/Tarefas_da_minha_equipe_K0i</members>
+		<members>AgoraCRM/Vencimento_do_Cadastro_g8q</members>
+        <name>Report</name>
+    </types>
+</Package>

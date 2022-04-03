@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tarefas_da_minha_equipe</fullName>
+    <columns>DUE_DATE</columns>
+    <columns>WHO_NAME</columns>
+    <columns>SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>PRIORITY</columns>
+    <filterScope>Team</filterScope>
+    <label>Tarefas da minha equipe</label>
+</ListView>

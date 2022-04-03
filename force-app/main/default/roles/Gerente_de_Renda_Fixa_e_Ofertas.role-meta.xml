@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Gerente de Renda Fixa e Ofertas</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Superintend_ncia_de_Produtos_e_Estrat_gia</parentRole>
+</Role>

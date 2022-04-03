@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grupo de permissões de acesso para todos os assessores comerciais e traders.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Comercial / Trading</label>
+    <status>Updated</status>
+</PermissionSetGroup>

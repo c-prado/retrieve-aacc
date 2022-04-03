@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_DocumentationStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Status Rocket</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-B3 APROVADO</fullName>
+                <default>false</default>
+                <label>1-B3 APROVADO</label>
+            </value>
+            <value>
+                <fullName>2-B3 REPROVADO</fullName>
+                <default>false</default>
+                <label>2-B3 REPROVADO</label>
+            </value>
+            <value>
+                <fullName>3-REST APROVADO</fullName>
+                <default>false</default>
+                <label>3-REST APROVADO</label>
+            </value>
+            <value>
+                <fullName>4-REST REPROVADO</fullName>
+                <default>false</default>
+                <label>4-REST REPROVADO</label>
+            </value>
+            <value>
+                <fullName>5-ROCKET APROVADO</fullName>
+                <default>false</default>
+                <label>5-ROCKET APROVADO</label>
+            </value>
+            <value>
+                <fullName>6-ROCKET VALIDACAO</fullName>
+                <default>false</default>
+                <label>6-ROCKET VALIDACAO</label>
+            </value>
+            <value>
+                <fullName>7-ROCKET REPROVADO</fullName>
+                <default>false</default>
+                <label>7-ROCKET REPROVADO</label>
+            </value>
+            <value>
+                <fullName>8-PENDENTE DOCTO</fullName>
+                <default>false</default>
+                <label>8-PENDENTE DOCTO</label>
+            </value>
+            <value>
+                <fullName>9-DOCUMENTACAO ANALISE</fullName>
+                <default>false</default>
+                <label>9-DOCUMENTACAO ANALISE</label>
+            </value>
+            <value>
+                <fullName>11-APROVACAO MANUAL</fullName>
+                <default>false</default>
+                <label>11-APROVACAO MANUAL</label>
+            </value>
+            <value>
+                <fullName>12-MESA 2</fullName>
+                <default>false</default>
+                <label>12-MESA 2</label>
+            </value>
+            <value>
+                <fullName>13-MESA 4</fullName>
+                <default>false</default>
+                <label>13-MESA 4</label>
+            </value>
+            <value>
+                <fullName>30-MESA 6 - BLACKLIST</fullName>
+                <default>false</default>
+                <label>30-MESA 6 - BLACKLIST</label>
+            </value>
+            <value>
+                <fullName>31-REST APROVADO MANUAL</fullName>
+                <default>false</default>
+                <label>31-REST APROVADO MANUAL</label>
+            </value>
+            <value>
+                <fullName>99-CADASTRANDO</fullName>
+                <default>false</default>
+                <label>99-CADASTRANDO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

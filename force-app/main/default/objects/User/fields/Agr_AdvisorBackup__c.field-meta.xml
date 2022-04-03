@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_AdvisorBackup__c</fullName>
+    <externalId>false</externalId>
+    <label>Assessor backup</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>$Source.UserRoleId</field>
+            <operation>equals</operation>
+            <value>Assessor Prospect Private</value>
+        </filterItems>
+        <infoMessage>Selecione o assessor backup</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <relationshipName>AdvisorBackup</relationshipName>
+    <restrictedAdminField>false</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Hierarchy</type>
+</CustomField>

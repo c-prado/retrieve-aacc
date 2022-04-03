@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Agr_CBLC__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Assessor_Home_Page</members>
+		<members>CRM_gora_UtilityBar</members>
+		<members>CommercialBankingHomePage1</members>
+		<members>Home_Page_do_Gerente_1</members>
+		<members>Tarefa_P_gina_de_registro</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
+		<members>Agr_CBLC__c-Layout de CBLC</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>accountProspectFields</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Task.Tarefas_da_minha_equipe</members>
+		<name>ListView</name>
+	</types>
+	<version>53.0</version>
+</Package>

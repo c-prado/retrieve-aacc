@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_LinkWithAgora__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Vínculo com a Ágora</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0-Nenhum Vínculo</fullName>
+                <default>false</default>
+                <label>0-Nenhum Vínculo</label>
+            </value>
+            <value>
+                <fullName>1-Administradores, funcionários,</fullName>
+                <default>false</default>
+                <label>1-Administradores, funcionários,</label>
+            </value>
+            <value>
+                <fullName>operadores e prepostos da corretora;</fullName>
+                <default>false</default>
+                <label>operadores e prepostos da corretora;</label>
+            </value>
+            <value>
+                <fullName>2-Agentes autônomos</fullName>
+                <default>false</default>
+                <label>2-Agentes autônomos</label>
+            </value>
+            <value>
+                <fullName>3-Prestadores de serviços contratados</fullName>
+                <default>false</default>
+                <label>3-Prestadores de serviços contratados</label>
+            </value>
+            <value>
+                <fullName>para atividades fins da corretora</fullName>
+                <default>false</default>
+                <label>para atividades fins da corretora</label>
+            </value>
+            <value>
+                <fullName>4-Sócios ou acionistas da corretora,</fullName>
+                <default>false</default>
+                <label>4-Sócios ou acionistas da corretora,</label>
+            </value>
+            <value>
+                <fullName>pessoas físicas</fullName>
+                <default>false</default>
+                <label>pessoas físicas</label>
+            </value>
+            <value>
+                <fullName>5-Cônjuges e filhos menores das</fullName>
+                <default>false</default>
+                <label>5-Cônjuges e filhos menores das</label>
+            </value>
+            <value>
+                <fullName>pessoas anteriormente citadas</fullName>
+                <default>false</default>
+                <label>pessoas anteriormente citadas</label>
+            </value>
+            <value>
+                <fullName>6-Sócios, acionistas e sociedades</fullName>
+                <default>false</default>
+                <label>6-Sócios, acionistas e sociedades</label>
+            </value>
+            <value>
+                <fullName>controladas pela corretora, exceto Instituição Financeira</fullName>
+                <default>false</default>
+                <label>controladas pela corretora, exceto Instituição Financeira</label>
+            </value>
+            <value>
+                <fullName>7-Clubes e fundos cuja maioria das</fullName>
+                <default>false</default>
+                <label>7-Clubes e fundos cuja maioria das</label>
+            </value>
+            <value>
+                <fullName>cotas pertença as pessoas citadas acima</fullName>
+                <default>false</default>
+                <label>cotas pertença as pessoas citadas acima</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

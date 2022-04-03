@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EstadoSP</fullName>
+    <active>false</active>
+    <errorConditionFormula>PersonMailingState &lt;&gt; &quot;SP&quot;</errorConditionFormula>
+    <errorMessage>Estado inválido.</errorMessage>
+</ValidationRule>

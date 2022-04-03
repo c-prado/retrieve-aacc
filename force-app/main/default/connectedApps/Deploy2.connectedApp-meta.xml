@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>cprado@salesforce.com</contactEmail>
+    <label>Deploy2</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDgDCCAmgCCQCvI7dKs2UZszANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCYnIxFTATBgNVBAgMDFPDg8KjbyBQYXVsbzEVMBMGA1UEBwwMU8ODwqNvIFBhdWxvMR8wHQYDVQQKDBbDg8KBZ29yYSBJbnZlc3RpbWVudG9zMQwwCgYDVQQLDANDUk0xFTATBgNVBAMMDGFnb3JhLmRldm9wczAeFw0yMjAxMTkwMDAzMzhaFw0yMzAxMTkwMDAzMzhaMIGBMQswCQYDVQQGEwJicjEVMBMGA1UECAwMU8ODwqNvIFBhdWxvMRUwEwYDVQQHDAxTw4PCo28gUGF1bG8xHzAdBgNVBAoMFsODwoFnb3JhIEludmVzdGltZW50b3MxDDAKBgNVBAsMA0NSTTEVMBMGA1UEAwwMYWdvcmEuZGV2b3BzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1NKKXaWuNoDBospNzgUCidkNdM8NtyjC6kIGqfLE2KaF9SfLtjVjsKJaGEEYvMnqU1cMV3rq8CjKqhKTfsUZKYHVr3G6Wt9qkb50HBgVQGgTnb8Wla8qWreuYQQqEPdk3TLHvbt2w/ZxHAo1XzQ0wpTSC0RGumii24EBTy72897cSyxYX2H1413jKeeSivm5dWJcYLjuG47QZOXD12koae6gOaVTP+a0HntgYv35YLIgQglEG8kGJU4zlGKrTlf0Sgy74nEFYdaId0/yGq9d9Q0ZuqZE4bWZI2y7ygb/IguYaE67z1RC7z3X9Orgi+eDc9h2TbyJGjXpH2mcQkbJBQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBgo5tnNomyGldEFTtQfw/w23BIllyuVqcUZfln/LahFI4IA0fstl3sW31zxF0AmItiJav0IxKhNZ8NAcjY3xTh/6rMTw+RZSxH817F/upfyK/5aIQd9YOEnuyPByi3PXjDh+AvVKnb4fmevx8mDvP+bgd2G/MG8Ok5O0XYWm9JzDBO1lH+dN7JmdVhm/DLLvh08/RDQQLHG9zZsJMn/+GoUTKrgZu/a3s7+7tJ7MhWCam/sdYEvA0AL3T1jmMvOggeyrXCcI3dqnInXgkH93SQmekg5MddiAY6RxnFFm+lFfPLwnqQPoLzBvJw2XkuPMu4nWOqiCoBlBXkj06w7yyR</certificate>
+        <consumerKey>3MVG9oZtFCVWuSwMCDS9v4RkE0.BVR8BXfsYsiK3T5J5caeGQXHRLgMji5l7mtMf9XElRL4Btqd.1mv8Eh7uX</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Agora</profileName>
+    <profileName>Administrador AACC</profileName>
+    <profileName>Administrador do sistema</profileName>
+</ConnectedApp>

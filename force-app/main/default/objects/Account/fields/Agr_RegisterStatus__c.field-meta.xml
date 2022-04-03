@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_RegisterStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Status Cadastro</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DADOS ACESSO</fullName>
+                <default>false</default>
+                <label>DADOS ACESSO</label>
+            </value>
+            <value>
+                <fullName>DADOS PESSOAIS</fullName>
+                <default>false</default>
+                <label>DADOS PESSOAIS</label>
+            </value>
+            <value>
+                <fullName>DADOS FINANCEIROS</fullName>
+                <default>false</default>
+                <label>DADOS FINANCEIROS</label>
+            </value>
+            <value>
+                <fullName>DADOS ENDEREÇO</fullName>
+                <default>false</default>
+                <label>DADOS ENDEREÇO</label>
+            </value>
+            <value>
+                <fullName>PREENCHIMENTO COMPLETO</fullName>
+                <default>false</default>
+                <label>PREENCHIMENTO COMPLETO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
